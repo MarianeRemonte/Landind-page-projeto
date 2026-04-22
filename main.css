@@ -1,0 +1,60 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffe4ec, #e6f0ff);
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #ffb6c1, #add8e6);
+    color: white;
+}
+
+/* Container principal */
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Caixas de conteúdo */
+.fade-box {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    /* Estado inicial */
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
+
+/* Quando aparece */
+.fade-box.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Links */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #add8e6;
+}
