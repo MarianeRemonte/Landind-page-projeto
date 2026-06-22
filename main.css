@@ -48,6 +48,14 @@ a {
     font-weight: bold;
 }
 
+video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
 a:hover {
     text-decoration: underline;
 }
