@@ -14,6 +14,12 @@ function revealBoxes() {
     });
 }
 
+const galeria = [
+    "img/educacao.png",
+    "img/dificuldades.png",
+    "img/opiniao.png"
+]
+
 // Executa no scroll
 window.addEventListener("scroll", revealBoxes);
 
