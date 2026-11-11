@@ -18,9 +18,9 @@ const btnProximo = document.getElementById('btn-proximo');
 const btnAnterior = document.getElementById('btn-anterior');
  
 const galeria = [
-    "img/educacao.png",
-    "dificuldades.png",
-    "opiniao.png"
+    ".img/educacao.png",
+    "./img/dificuldades.png",
+    "./img/opiniao.png"
 ];
  
 let indiceAtual = 0;
