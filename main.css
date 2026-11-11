@@ -76,6 +76,14 @@ img{
     background-color: #8A8A8A8A;
 }
 
+.q5{
+    background-color: #82541f;
+}
+
+.q6{
+    background-color: #ffffff;
+}
+
 /* Efeito ao passar o mouse */
 .quadrado:hover{
     transform: scale(1.2) translateY(-20px) rotate(5deg);
